@@ -1,4 +1,23 @@
 {
-  "version": 1,
-  "games": []
+  "games": [
+    {
+      "game": "Postal 2",
+      "slug": "postal-2",
+      "platform": "PC",
+      "steam_appid": 223470,
+      "aliases": [
+        "Postal 2"
+      ],
+      "source": {
+        "type": "local",
+        "file": "sources/audio/postal2.mp3"
+      },
+      "clip": {
+        "start": 30.0,
+        "duration": 15.0,
+        "file": "jingles/postal-2-clipped.mp3"
+      },
+      "review_status": "approved"
+    }
+  ]
 }

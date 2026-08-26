@@ -1,4 +1,9 @@
 {
   "name": "Cocoon PC Jingles",
-  "entries": []
+  "entries": [
+    {
+      "game": "Postal 2",
+      "file": "jingles/postal-2-clipped.mp3"
+    }
+  ]
 }
