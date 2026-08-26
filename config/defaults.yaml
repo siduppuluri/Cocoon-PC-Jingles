@@ -1,0 +1,32 @@
+project:
+  name: "Cocoon PC Jingles"
+  platform: "PC"
+
+audio:
+  duration: 15.0
+  minimum_duration: 12.0
+  maximum_duration: 15.0
+
+  fade_in: 0.15
+  fade_out: 0.35
+
+  format: "mp3"
+  bitrate: "160k"
+
+  loudness:
+    target_lufs: -16.0
+    true_peak: -1.5
+    lra: 11
+
+selection:
+  avoid_intro_seconds: 20
+  candidate_count: 3
+
+paths:
+  source_audio: "sources/audio"
+  cache: "sources/cache"
+  candidates: "candidates"
+  jingles: "jingles"
+  reports: "reports"
+  database: "database/games.json"
+  index: "index.json"

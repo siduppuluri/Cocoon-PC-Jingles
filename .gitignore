@@ -1,0 +1,43 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# Downloaded source audio
+sources/audio/*
+!sources/audio/.gitkeep
+
+# Download/cache data
+sources/cache/*
+!sources/cache/.gitkeep
+
+# Candidate clips awaiting review
+candidates/*
+!candidates/.gitkeep
+
+# Generated reports
+reports/*
+!reports/.gitkeep
+
+# Temporary audio
+*.tmp.mp3
+*.tmp.wav
+*.tmp.flac
+*.part
+
+# Logs
+*.log
